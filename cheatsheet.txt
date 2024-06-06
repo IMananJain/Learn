@@ -1,0 +1,16 @@
+git config --global user.name "Manan Jain"
+git config --global user.email "manan.jain@biz4group.com"
+git config --list
+git init
+git status
+git add --a
+git commit -m "Initial Commit"
+git log
+git diff
+git diff --staged
+git commit -a -m "Direct Commit for only staged files"
+git rm second.txt //REMOVE
+git mv test.txt cheatsheet.txt  //RENAME
+git rm --cached static.txt //untracking
+rm -rf .git //remove as git repo
+git commit --amend
